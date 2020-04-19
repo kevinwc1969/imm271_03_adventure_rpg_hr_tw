@@ -1,0 +1,30 @@
+:: StoryTitle
+Adventuring
+
+:: StoryData
+{
+    "format": "Harlowe",
+    "format-version": "3.1.0",
+    "start": "init"
+}
+
+:: init
+[[main]]
+
+:: main
+You've been adventuring for $days days. You have $coins coins and your health is $hp.
+
+[[rest]]
+
+[[adventure]]
+
+[[shop]]
+
+:: rest
+[[main]]
+
+:: adventure
+[[main]]
+
+::shop
+[[main]]
